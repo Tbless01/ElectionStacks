@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf541c3-6599-4aca-84e6-18c7499d70bf" name="Changes" comment="" />
+    <list default="true" id="8cf541c3-6599-4aca-84e6-18c7499d70bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electionSnacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/VoterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/Voter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VoteRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VoterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/VoterRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/Requests/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/Response/FindVoterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VoterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/repository/VoteRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/repository/VoterRepositoryImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MBqZ4FVulTWOmxjsRrnkAOanmL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,11 +54,120 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/OLAITAN BLESSING/IdeaProjects/JavaStarts"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\OLAITAN BLESSING\IdeaProjects\electionSnacks\src\data" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="data.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VoteRepositoryImplTest.deleteAllVotes_countIsZero">
+    <configuration name="VoteRepositoryImplTest.deleteAllVotes_countIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="electionSnacks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repository" />
+      <option name="MAIN_CLASS_NAME" value="data.repository.VoteRepositoryImplTest" />
+      <option name="METHOD_NAME" value="deleteAllVotes_countIsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoteRepositoryImplTest.savedOneVoter_sVoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="electionSnacks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repository" />
+      <option name="MAIN_CLASS_NAME" value="data.repository.VoteRepositoryImplTest" />
+      <option name="METHOD_NAME" value="savedOneVoter_sVoteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoteRepositoryImplTest.votesTwiceWithOneId_IdIsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="electionSnacks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repository" />
+      <option name="MAIN_CLASS_NAME" value="data.repository.VoteRepositoryImplTest" />
+      <option name="METHOD_NAME" value="votesTwiceWithOneId_IdIsOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="electionSnacks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repository" />
+      <option name="MAIN_CLASS_NAME" value="data.repository.VoterRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterRepositoryImplTest.savedMoreThanOneVoter_deleteAll_countThatIsZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="electionSnacks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repository" />
+      <option name="MAIN_CLASS_NAME" value="data.repository.VoterRepositoryImplTest" />
+      <option name="METHOD_NAME" value="savedMoreThanOneVoter_deleteAll_countThatIsZeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VoteRepositoryImplTest.deleteAllVotes_countIsZero" />
+        <item itemvalue="JUnit.VoteRepositoryImplTest.votesTwiceWithOneId_IdIsOneTest" />
+        <item itemvalue="JUnit.VoteRepositoryImplTest.savedOneVoter_sVoteTest" />
+        <item itemvalue="JUnit.VoterRepositoryImplTest.savedMoreThanOneVoter_deleteAll_countThatIsZeroTest" />
+        <item itemvalue="JUnit.VoterRepositoryImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,7 +176,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677251378112</updated>
+      <workItem from="1677251379901" duration="11351000" />
+      <workItem from="1677399818091" duration="12517000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
