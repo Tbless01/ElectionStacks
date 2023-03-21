@@ -13,7 +13,7 @@ public class VoterController {
     private VoterService voterService;
     @GetMapping("/confirm")
     public Object something() {
-        return "It works";
+        return "It  works";
     }
     @PostMapping("/voter/register")
     public Object register(RegisterRequest request) {
